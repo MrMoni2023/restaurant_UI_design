@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<title>About Us</title>
+	<style type="text/css">
+		*{
+			margin: 0;padding: 0;font-family: 'Fuzzy Bubbles', cursive;;
+		}
+		.section {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.section h1 {
+  text-align: center;
+  font-size: 6rem;
+  font-family: "Cookie";
+  padding: 20px;
+  margin: 15px;
+  z-index: 1;
+  opacity: 0.7;
+}
+
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  
+}
+
+.color-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: lightblue;
+  width: 60%;
+  height: 50vh;
+  opacity: 0.5;
+  margin-left: 20%;
+  border-radius: 20px 20px 20px 20px;
+}
+	}
+	.menu{
+widows: 100%;
+				padding: 10rem 5rem;
+		background-image: linear-gradient(to right bottom,rgb(27, 26, 25),rgba(30, 28, 29, 0.8));
+		
+		
+
+	}
+	.menu-heading{
+		font-style: ;
+		font-size: 6rem;
+		text-align: center;
+		text-shadow: 0 0 1rem rgba(0, 0, 0, .9);
+		text-transform: uppercase;
+		color: white;
+		font-weight: 800;
+	}
+	.menu-grid{
+		display: grid;
+		grid-template-rows: repeat(2, 1fr);
+		grid-template-columns: repeat(4, 1fr);
+		justify-self: center;
+		grid-gap: 2rem;
+
+	}
+	.heading-secandary{
+		font-size: 7rem;
+		text-transform: uppercase;
+		color: white;
+		text-align: center;
+
+	}
+	
+	.menu-container{
+		float: inline;
+		width: 45%;
+		height: 18rem;
+		background-color: white;
+		border-radius: 5px;
+		overflow: hidden;
+		box-shadow: 0 0 2rem rgba(0, 0, 0, .2);
+		background-color: #76716E;
+		transition: all .4s ease;
+
+	}
+	.menu-container:hover{
+		box-shadow: 0 0 2rem rgba(0, 0, 0, .4);
+		transform: scale(1.07);
+	}
+
+
+	
+	.menu-container2{
+		float: inline;
+		width: 45%;
+		height: 18rem;
+		background-color: white;
+		border-radius: 5px;
+		overflow: hidden;
+		box-shadow: 0 0 2rem rgba(0, 0, 0, .2);
+		transition: all .4s ease;
+		background-color: #76716E;
+
+	}
+	.menu-container2:hover{
+		box-shadow: 0 0 2rem rgba(0, 0, 0, .4);
+		transform: scale(1.07);
+	}
+	.price{
+		font-size: 1rem;
+		margin-top: rem;
+		text-align: center;
+		color: #999;
+		text-shadow: 0 .4rem 2rem rgba(0, 0, 0, .4);
+	}
+	.course{
+			width: 80%;
+			margin: auto;
+			text-align: center;
+			padding-top: 100px;
+		}
+		.course h1{font-size: 36px;font-weight: 600; color: #999;}
+		.course p{color: darkgrey;font-size: 14px;font-weight: 300;line-height: 22px;padding: 10px;}
+		.row{margin-top: 5px;justify-content: space-between;display: flex;}
+		.course-col1{flex-basis: 31%; background:  #76716E; border-radius: 10px;margin-bottom: 5px;padding: 20px 12px;box-sizing: border-box;background-size: cover;background-position: ; }
+		.course-col2{flex-basis: 31%; background:  #76716E;border-radius: 10px;margin-bottom: 5px;padding: 20px 12px;box-sizing: border-box; background-size: cover;background-position: ;}
+		.course-col3{flex-basis: 31%; background: #76716E ;border-radius: 10px;margin-bottom: 5px;padding: 20px 12px;box-sizing: border-box; background-size: cover;background-position: ;}
+		.campus{width: 80%;margin: auto;text-align: center;padding-top: 5px;}
+		.campus h1 p{color: #999;}
+		.campus-col{
+			flex-basis: 32%;border-radius: 10px;margin-bottom: 30px;position: relative;overflow: hidden;
+		}
+		.campus-col img{width: 100%;}
+	
+body{
+			display: flex;
+			justify-content: flex-end;
+			align-items: center;
+			min-height: 100vh;
+			flex-direction: column;
+			background: #ede7f6;
+			background-color:  #282729  ;
+		}
+		footer{
+			position: relative;
+			width: 100%;
+			height: auto;
+			padding: 40px 80px;
+			background: #111;
+			display: flex;
+			justify-content: space-between;
+			flex-wrap: wrap;
+		}
+		footer .container{
+		    display: flex;
+		    justify-content: space-between;
+			flex-wrap: wrap;
+			flex-direction: row;
+			
+
+
+
+
+		}
+		footer .container .sec{margin-right: 30px;}
+		footer .container .sec.aboutus{width: 40%;}
+		footer .container  h2{ position: relative;color: #fff;font-weight: 500; margin-bottom: 15px; }
+		footer  h2:before{content: ''; position: absolute; bottom: -5px; left: 0; width:50px ; height:2px ; background: #f00;}
+		footer  p{color: #999;}
+		.sci{margin-top: 20px; display: flex;}
+		.sci li{list-style-type: none;}
+		.sci li a{display: inline-block; width: 40px; height: 40px; background: #222; display: flex; justify-content: center; align-items: center ;margin-right: 10px; text-decoration: none; border-radius: 4px;}
+		.sci li a:hover{color: #f00;}
+		.sci li a{color: #fff; font-size: 20px;}
+		.quicklinks{
+			position: relative;width: 25%;
+		}
+		.quicklinks ul li{
+			list-style-type: none;
+		}
+		.quicklinks ul li a{
+			color: #999;
+			text-decoration: none;
+			margin-bottom: 10px;
+			display: inline-block;
+		}.quicklinks ul li a:hover{
+			color: white;
+		}
+		.contacts{
+			width:calc(35% - 60px);
+			margin-right: 0 !important;
+		}
+		.contacts .info{position: relative;}
+		.contacts .info li{
+			display: flex;margin-bottom: 16px;
+		}
+		.contacts .info li span{color: #fff;
+			font-size: 20px;
+			margin-right: 10px;
+
+		}
+		.contacts .info li span{color: #999;}
+		.contacts .info li a{color: #999; text-decoration: none;}
+		.contacts .info li a:hover{color: #fff;}
+		.copyright{width: 100%; background: #181818;padding: 8px 100px; text-align:center ; color: #999;}
+	</style>
+</head>
+<body>
+	
+    
+    <section class="menu">
+		<div class="container">
+			<div class="menu-heading">ABOUT</div><br><br><br>
+				<div class="menu-grind">
+					<div class="menu-hold">
+					
+						<div class="menu-container" style="margin-top: 0%;">
+							<div class="menu-img">
+								&nbsp;
+							</div>
+							<br>
+							
+
+							<h1 class="menu-title"style="font-size: 250%;text-align: center;">Ambience & Authenticity</h1>
+							<p class="menu-p"></p><br><br>
+							<h3 class="price">Karachi was originally name “Kolachi”. It used to be called the “City of Lights” and is still known for its vibrant nightlife, immense sense of culture, and delicious food. MyKolachi Karahi & Barbeque House represents a snapshot of the light, life, and vibrancy of Karachi — the soul of Pakistan — the vibrance, the sea, the city, MyKolachi!</h3>
+							
+						</div>
+						<br>
+						
+						<div class="menu-container2" style="margin-left: 55%;margin-top: -20%;">
+							<div class="menu-img2">
+								&nbsp;
+							</div>
+							
+
+							<h1 class="menu-title" style="font-size: 250%;text-align: center;">Our Karahi</h1>
+							<p class="menu-p"></p><br><br>
+							<h3 class="price">Our specialty dish is cooked in proper karahi pots that are specially shaped with that signature rounded “wok” style to maintain an even cooking temperature. Our chefs have perfected the technique of cooking in karahis so that you can enjoy each of these recipes as if you were eating them fresh, back home. Cooked fresh while you wait, our key dish is known for its fresh (never frozen) ingredients— just like home.</h3>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<br><br>]<br><br><br><br>]<br><br>
+
+
+		<div class="section">
+
+        <h1>Welcome.</h1>
+
+        <div class="video-container" align="center">
+            <div class="color-overlay"></div>
+            <video width="60%"  autoplay loop muted style="border-radius: 20px 20px 20px 20px;" >
+                <source src="images/vid4.mp4" type="video/mp4">
+            </video>
+        </div>
+
+    </div>
+
+
+		<br><br><br><br>
+		<section class="course">
+		<h1>Our Thinking</h1>
+		<p>What we are intented to do with our work in up coming times.</p>
+		<div class="row">
+			<div class="course-col1">
+				<
+				<h3>Our PURPOSE</h3>
+				<p>To cook with heart and serve upscale Pakistani Karahi & BBQ to couples, coworkers, and families across the GTA in a casual, vibrant, and nostalgic “Karachi” atmosphere.</p>
+			</div>
+			<div class="course-col2">
+				<
+				<h3>Our VISION</h3>
+				<p>We will be the leader in Pakistani restaurant franchising with excellent flavour, organic food offerings, and a consistent experience that revolves around fresh food, family, Karachi nostalgia, and a sense of social consciousness.</p>
+			</div>
+			<div class="course-col3">
+				
+				<h3>Our MISION</h3>
+				<p>We offer a “just like home” menu for Pakistanis and a unique space for Canadians to experience the flavour and ambiance of growing up in KarachI.</p>
+			</div>
+		</div>
+		
+	</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </section><br><br><br><br>
+    <footer>
+		<div class="container">
+			<div class="sec aboutus">
+				<h2>About us</h2>
+				<p>myCuisine is the only Pakistani restaurant in the GTA that offers the trifecta: flavour, experience, and quality. We serve upscale Karahi & BBQ in a casual and vibrant atmosphere.</p>
+				<ul class="sci"> 
+				<li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+					<li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+					<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+					<li><a href="#"><i class="fab fa-snapchat"></i></a></li>
+			</ul>
+			</div>
+			<div class="sec quicklinks">
+				<h2>Quick Links</h2>
+				<ul>
+					
+					<li><a href="menu.html">MENU</a></li>
+					<li><a href="">COMBA PACKAGES</a></li>
+					<li><a href="">ABOUT US</a></li>
+					<li><a href="">CONTACT</a></li>
+					<li><a href="">OUR CHEFS</a></li>
+				</ul>
+			</div>
+			<div class="sec contacts">
+				<h2>Contacts Info</h2>
+				<ul class="info">
+					<li>
+						<span><i class="fa fa-map-marker" ></i></span>
+						<span>Plot #36, Block 7/8, Modern Cooperative Housing Society, Main Tipu Sultan Rd, Karachi, 75350</span>
+					</li>
+					<li>
+						<span><i class="fa fa-phone" ></i></span>
+						<p><a href="tel:123456789">+289-521-7722</a></p>
+					</li>
+					<li>
+						<span><i class="fa fa-envelope" ></i></span>
+						<p><a href="mailto:info@mycuisine.ca">info@mycuisine.ca</a></p>
+						
+					</li>
+				</ul>
+			</div>
+			
+		</div>
+		<div class="copyright">
+			<p>Copyright © IICT Project. All right Reserved.</p>
+		</div>
+	</footer>
+
+    
+
+</body>
+</html>

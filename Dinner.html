@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<title>Dinner Menu</title>
+	<style type="text/css">
+		*{
+			font-family: 'Fuzzy Bubbles', cursive;;
+		}
+		.menu{
+		widows: 100%;
+		padding: 10rem 5rem;
+		background-image: linear-gradient(rgb(27, 26, 25),rgba(30, 28, 29, 0.8));
+		
+		
+
+	}
+	.menu-heading{
+		font-style: ;
+		font-size: 6rem;
+		text-align: center;
+		text-shadow: 0 0 1rem rgba(0, 0, 0, .9);
+		text-transform: uppercase;
+		color: white;
+		font-weight: 800;
+	}
+	.menu-grid{
+		display: grid;
+		grid-template-rows: repeat(2, 1fr);
+		grid-template-columns: repeat(4, 1fr);
+		justify-self: center;
+		grid-gap: 2rem;
+
+	}
+	.heading-secandary{
+		font-size: 7rem;
+		text-transform: uppercase;
+		color: white;
+		text-align: center;
+
+	}
+	.menu-img{
+		height: 50%;
+		width: 100%;
+		background-size: cover;
+		background-position: left;
+		background-image: url(images/chops.jpg);
+		
+		
+	}
+	.menu-container{
+		float: inline;
+		width: 45%;
+		height: 25rem;
+		background-color: white;
+		border-radius: 5px;
+		overflow: hidden;
+		box-shadow: 0 0 2rem rgba(0, 0, 0, .2);
+		transition: all .4s ease;
+
+	}
+	.menu-container:hover{
+		box-shadow: 0 0 2rem rgba(0, 0, 0, .4);
+		transform: scale(1.07);
+	}
+
+
+	.menu-img2{
+		height: 50%;
+		width: 100%;
+		background-size: cover;
+		background-position: left;
+		background-image: url(images/cook1.jpg);
+		
+		
+	}
+	.menu-container2{
+		float: inline;
+		width: 45%;
+		height: 25rem;
+		background-color: white;
+		border-radius: 5px;
+		overflow: hidden;
+		box-shadow: 0 0 2rem rgba(0, 0, 0, .2);
+		transition: all .4s ease;
+
+	}
+	.menu-container2:hover{
+		box-shadow: 0 0 2rem rgba(0, 0, 0, .4);
+		transform: scale(1.07);
+	}
+
+	
+	.menu-img3{
+		height: 50%;
+		width: 100%;
+		background-size: cover;
+		background-position: left;
+		background-image: url(images/sand1.jpg);
+		
+		
+	}
+	.menu-container3{
+		float: inline;
+		width: 45%;
+		height: 25rem;
+		background-color: white;
+		border-radius: 5px;
+		overflow: hidden;
+		box-shadow: 0 0 2rem rgba(0, 0, 0, .2);
+		transition: all .4s ease;
+
+	}
+	.menu-container3:hover{
+		box-shadow: 0 0 2rem rgba(0, 0, 0, .4);
+		transform: scale(1.07);
+	}
+
+
+	
+	.menu-img4{
+		height: 50%;
+		width: 100%;
+		background-size: cover;
+		background-position: left;
+		background-image: url(images/food1.jpg);
+		
+		
+	}
+	.menu-container4{
+		float: inline;
+		width: 45%;
+		height: 25rem;
+		background-color: white;
+		border-radius: 5px;
+		overflow: hidden;
+		box-shadow: 0 0 2rem rgba(0, 0, 0, .2);
+		transition: all .4s ease;
+
+	}
+	.menu-container4:hover{
+		box-shadow: 0 0 2rem rgba(0, 0, 0, .4);
+		transform: scale(1.07);
+	}
+
+	
+	.menu-img5{
+		height: 50%;
+		width: 100%;
+		background-size: cover;
+		background-position: left;
+		background-image: url(images/pasta.jpg);
+		
+		
+	}
+	.menu-container5{
+		float: inline;
+		width: 45%;
+		height: 25rem;
+		background-color: white;
+		border-radius: 5px;
+		overflow: hidden;
+		box-shadow: 0 0 2rem rgba(0, 0, 0, .2);
+		transition: all .4s ease;
+
+	}
+	.menu-container5:hover{
+		box-shadow: 0 0 2rem rgba(0, 0, 0, .4);
+		transform: scale(1.07);
+	}
+
+	
+	.menu-img6{
+		height: 50%;
+		width: 100%;
+		background-size: cover;
+		background-position: left;
+		background-image: url(images/burg.jpg);
+		
+		
+	}
+	.menu-container6{
+		float: inline;
+		width: 45%;
+		height: 25rem;
+		background-color: white;
+		border-radius: 5px;
+		overflow: hidden;
+		box-shadow: 0 0 2rem rgba(0, 0, 0, .2);
+		transition: all .4s ease;
+
+	}
+	.menu-container6:hover{
+		box-shadow: 0 0 2rem rgba(0, 0, 0, .4);
+		transform: scale(1.07);
+	}
+
+	
+	.menu-img7{
+		height: 50%;
+		width: 100%;
+		background-size: cover;
+		background-position: left;
+		background-image: url(images/steak01.jpg);
+		
+		
+	}
+	.menu-container7{
+		float: inline;
+		width: 45%;
+		height: 25rem;
+		background-color: white;
+		border-radius: 5px;
+		overflow: hidden;
+		box-shadow: 0 0 2rem rgba(0, 0, 0, .2);
+		transition: all .4s ease;
+
+	}
+	.menu-container7:hover{
+		box-shadow: 0 0 2rem rgba(0, 0, 0, .4);
+		transform: scale(1.07);
+	}
+
+	
+	.menu-img8{
+		height: 50%;
+		width: 100%;
+		background-size: cover;
+		background-position: left;
+		background-image: url(images/balls.jpg);
+		
+		
+	}
+	.menu-container8{
+		float: inline;
+		width: 45%;
+		height: 25rem;
+		background-color: white;
+		border-radius: 5px;
+		overflow: hidden;
+		box-shadow: 0 0 2rem rgba(0, 0, 0, .2);
+		transition: all .4s ease;
+
+	}
+	.menu-container8:hover{
+		box-shadow: 0 0 2rem rgba(0, 0, 0, .4);
+		transform: scale(1.07);
+	}
+
+	.menu-img9{
+		height: 50%;
+		width: 100%;
+		background-size: cover;
+		background-position: left;
+		background-image: url(images/pizz.jpg);
+		
+		
+	}
+	.menu-container9{
+		float: inline;
+		width: 45%;
+		height: 25rem;
+		background-color: white;
+		border-radius: 5px;
+		overflow: hidden;
+		box-shadow: 0 0 2rem rgba(0, 0, 0, .2);
+		transition: all .4s ease;
+
+	}
+	.menu-container9:hover{
+		box-shadow: 0 0 2rem rgba(0, 0, 0, .4);
+		transform: scale(1.07);
+	}
+
+	.menu-img10{
+		height: 50%;
+		width: 100%;
+		background-size: cover;
+		background-position: left;
+		background-image: url(images/salad.jpg);
+		
+		
+	}
+	.menu-container10{
+		float: inline;
+		width: 45%;
+		height: 25rem;
+		background-color: white;
+		border-radius: 5px;
+		overflow: hidden;
+		box-shadow: 0 0 2rem rgba(0, 0, 0, .2);
+		transition: all .4s ease;
+
+	}
+	.menu-container10:hover{
+		box-shadow: 0 0 2rem rgba(0, 0, 0, .4);
+		transform: scale(1.07);
+	}
+
+	.menu-img11{
+		height: 50%;
+		width: 100%;
+		background-size: cover;
+		background-position: left;
+		background-image: url(images/cook_1.jpg);
+		
+		
+	}
+	.menu-container11{
+		float: inline;
+		width: 45%;
+		height: 25rem;
+		background-color: white;
+		border-radius: 5px;
+		overflow: hidden;
+		box-shadow: 0 0 2rem rgba(0, 0, 0, .2);
+		transition: all .4s ease;
+
+	}
+	.menu-container11:hover{
+		box-shadow: 0 0 2rem rgba(0, 0, 0, .4);
+		transform: scale(1.07);
+	}
+
+	.menu-img12{
+		height: 50%;
+		width: 100%;
+		background-size: cover;
+		background-position: left;
+		background-image: url(images/pizzza.jpeg);
+		
+		
+	}
+	.menu-container12{
+		float: inline;
+		width: 45%;
+		height: 25rem;
+		background-color: white;
+		border-radius: 5px;
+		overflow: hidden;
+		box-shadow: 0 0 2rem rgba(0, 0, 0, .2);
+		transition: all .4s ease;
+
+	}
+	.menu-container12:hover{
+		box-shadow: 0 0 2rem rgba(0, 0, 0, .4);
+		transform: scale(1.07);
+	}
+
+
+
+
+
+
+
+
+	
+	.menu-p{
+		font-size: 1.rem;
+		padding: rem;
+		text-align: center;
+	}
+	.menu-title{
+		font-size: 1rem;
+		text-align: center;
+	}
+	.price{
+		font-size: 1rem;
+		margin-top: rem;
+		text-align: center;
+		color: #da6b1d;
+		text-shadow: 0 .4rem 2rem rgba(0, 0, 0, .4);
+	}
+
+		
+	</style>
+</head>
+<body style="background-color: black;">
+	<section class="menu">
+		<div class="container">
+			<div class="menu-heading">DINNER</div><br><br><br>
+				<div class="menu-grind">
+					<div class="menu-hold">
+					
+						<div class="menu-container">
+							<div class="menu-img">
+								&nbsp;
+							</div>
+							<br>
+							
+
+							<h1 class="menu-title">CHOPS</h1>
+							<p class="menu-p">THIS IS A MUTTON NAMKEEN CHOPS.</p>
+							<h3 class="price">Rs.2600</h3>
+							
+						</div>
+						<br>
+						
+						<div class="menu-container2" style="margin-left: 55%;margin-top: -31%;">
+							<div class="menu-img2">
+								&nbsp;
+							</div>
+							
+
+							<h1 class="menu-title">STEAK</h1>
+							<p class="menu-p">THIS IS A TURKISH STEAK.</p>
+							<h3 class="price">Rs.3000</h3>
+							
+						</div>
+						<br>
+						
+						<div class="menu-container">
+							<div class="menu-img3">
+								&nbsp;
+							</div>
+							
+
+							<h1 class="menu-title">KUN FISH</h1>
+							<p class="menu-p">THIS IS THE SAMELMEN WHITE KUUN.</p>
+							<h3 class="price">Rs.2500</h3>
+							
+						</div>
+						<br>
+						
+						<div class="menu-container" style="margin-left: 55%;margin-top: -31%;">
+							<div class="menu-img4">
+								&nbsp;
+							</div>
+							
+
+							<h1 class="menu-title">CHATKHARA</h1>
+							<p class="menu-p">WE CALL THIS A CHICKEN CHAKTKHARA.</p>
+							<h3 class="price">Rs.1500</h3>
+							
+						</div>
+						<br>
+						<div class="menu-container">
+							<div class="menu-img5">
+								&nbsp;
+							</div>
+							
+
+							<h1 class="menu-title">PASTA</h1>
+							<p class="menu-p">WE CALL THIS A WHITE SAUCE ALFREDO PASTA.</p>
+							<h3 class="price">Rs.1800</h3>
+							
+						</div>
+						<br>
+						<div class="menu-container" style="margin-left: 55%;margin-top: -31%;" >
+						
+							<div class="menu-img6">
+								&nbsp;
+							</div>
+							
+
+							<h1 class="menu-title">BURGER</h1>
+							<p class="menu-p">WE CALL THIS A LOADED MIGHT DYNAMIT.</p>
+							<h3 class="price">Rs.500</h3>
+							
+						</div>
+						<br>
+						<div class="menu-container">
+							<div class="menu-img7">
+								&nbsp;
+							</div>
+							
+
+							<h1 class="menu-title">STEAK</h1>
+							<p class="menu-p">WE CALL THIS A TORDANADO STEAK.</p>
+							<h3 class="price">Rs.3500</h3>
+							
+						</div>
+						<br>
+						<div class="menu-container" style="margin-left: 55%;margin-top: -31%;">
+							<div class="menu-img8">
+								&nbsp;
+							</div>
+							
+
+							<h1 class="menu-title">BALLS</h1>
+							<p class="menu-p">WE CALL THIS A JUCIY BEEF BALLS.</p>
+							<h3 class="price">Rs.900</h3>
+							
+						</div>
+
+						<br>
+						<div class="menu-container" >
+							<div class="menu-img9">
+								&nbsp;
+							</div>
+							
+
+							<h1 class="menu-title">PIZZA</h1>
+							<p class="menu-p">WE CALL THIS A MARGIRTINA PIZZA.</p>
+							<h3 class="price">Rs.2300</h3>
+							
+						</div>
+
+						<br>
+						<div class="menu-container" style="margin-left: 55%;margin-top: -31%;">
+							<div class="menu-img10">
+								&nbsp;
+							</div>
+							
+
+							<h1 class="menu-title">ASIANIES</h1>
+							<p class="menu-p">WE CALL THIS A ASIAN LOADED SALAD.</p>
+							<h3 class="price">Rs.500</h3>
+							
+						</div>
+
+						<br>
+						<div class="menu-container" >
+							<div class="menu-img11">
+								&nbsp;
+							</div>
+							
+
+							<h1 class="menu-title">CHICKEN BOTI</h1>
+							<p class="menu-p">WE CALL THIS A MALAI BOTI.</p>
+							<h3 class="price">Rs.500</h3>
+							
+						</div>
+
+						<br>
+						<div class="menu-container" style="margin-left: 55%;margin-top: -31%;">
+							<div class="menu-img12">
+								&nbsp;
+							</div>
+							
+
+							<h1 class="menu-title">GARLIC BREAD</h1>
+							<p class="menu-p">WE CALL THIS A BUSTY GARLIC BREAD.</p>
+							<h3 class="price">Rs.1500</h3>
+							
+						</div>
+						
+					</div>
+				</div>
+			
+		</div>
+	</section>
+
+</body>
+</html>

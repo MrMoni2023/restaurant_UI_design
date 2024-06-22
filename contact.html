@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<title>Contact</title>
+</head>
+<style type="text/css">
+	*{
+			margin: 0;padding: 0;font-family: 'Fuzzy Bubbles', cursive;;
+		}
+
+	.head{
+			height: 45vh;
+			width: 60%;
+			margin-left: 20%;
+			border-radius: 5px 5px 5px 5px;
+			background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/contact.jpg);
+			background-position: center;
+			background-size: cover;
+			position: relative;
+		}
+		.text-box{
+			color: #fff;
+			
+			position: absolute;
+			top: 60%;
+			left: 50%;
+            transform: translate(-50%,-50%);
+            text-align: center;
+		}
+		.text-box h1{font-size: 62px;}
+		.text-box p{font-size: 14px;margin: 10px 0 40px;color: #fff;}
+		.container {
+          position: relative;
+          text-align: center;
+          color: white;
+          font-family: URW Chancery L, cursive;
+        }
+    
+        
+        .centered {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+         .btn {
+  position: absolute;
+  top: 80%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  min-width: fit-content;
+  font-family: URW Chancery L, cursive;
+}
+
+ .btn:hover {
+  background-color: black;
+  color: white;
+}
+.btn2 {
+  position: absolute;
+  top: 80%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  min-width: fit-content;
+  font-family: URW Chancery L, cursive;
+}
+
+ .btn2:hover {
+  background-color: black;
+  color: white;
+}
+
+.btn3 {
+  position: absolute;
+  top: 50%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  min-width: fit-content;
+  font-family: URW Chancery L, cursive;
+}
+
+ .btn3:hover {
+  background-color: black;
+  color: white;
+}
+.fa {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  
+  color:sienna;
+}
+
+.fa-instagram {
+  
+  color:sienna;
+}
+
+.fa-youtube {
+
+  color:sienna;
+}
+.fa-rss{
+    color: sienna;
+}
+.fa-twitter{
+    color: sienna;
+}
+.row{
+        display: flex;
+  flex-wrap: wrap;
+}
+.contact {
+  background: url(images/c3.jpeg);
+  align-items: initial;
+  background-size: cover;
+}
+
+.contactForm {
+  padding: 75px 50px;
+  background: #fff;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin-top: 50px;
+}
+
+.contactForm h3 {
+  color: #111;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.contactForm .inputBox {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+}
+margin-bottom: 20px;
+}
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea {
+  width: 100%;
+  border: 1px solid #555;
+  padding: 10px;
+  color: #111;
+  outline: none;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.contactForm .inputBox input[type="submit"] {
+  font-size: 1em;
+  color: #fff;
+  background: #ff0157;
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  transition: 0.5s;
+  max-width: 100px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}
+ .titleText {
+    text-align: center;
+    font-size: 1.8em;
+    line-height: 1.5em;
+    margin-bottom: 15px;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .testimonials .content .box {
+    margin: 10px;
+    padding: 20px;
+  }
+
+  .contactForm {
+    padding: 35px 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .titleText span {
+  color: #ff0157;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+</style>
+
+<body style="background-color: black ;">
+	<section class="head">
+		
+		<div class="text-box">
+		<h1>theCUISINE.</h1>
+		<p>CONTACT AND RESERVATIONS </p>
+
+		
+	</div>
+</section>
+<br>
+<br>
+<br>
+<br>
+<div class="container">
+    <img src="https://i.pinimg.com/originals/5d/06/7d/5d067d3fd85a38a35e639e01278ba9be.jpg" alt="food" style="width: 100%;max-height: 600px;  filter: brightness(50%);">
+   
+    <div class="centered" style="color: whitesmoke;font-family:fantasy;font-size: 290%;height: fit-content;">
+        <br>
+       <b style="color: white;font-family: URW Chancery L, cursive;color: sienna;"> Reservation</b><br>
+        YOU ORDER, WE DELIVER
+        <br>
+        <p style="color: whitesmoke;bottom: 0;font-size: 40%;"> CALL - 920.274.0366</p>
+        <br>
+        <br>
+      
+        <div class="flex-container" >
+            <div class="flex-item-left" style="max-width:100%;">
+                <button class="btn">SEE MENU <br>& ORDER</button>
+            </div>
+            <div class="flex-item-right" style="max-width:100%;">
+                <button class="btn2">TABLE <br>RESERVATIONS</button>
+            </div>
+           </div>
+         
+        </div>
+      
+</div>
+<br>
+<br>
+<br>
+<br>
+<section class="contact" id="contact">
+        <div class="title">
+            <h2 class="titleText" style="color:white;"><span>C</span>ontact</h2>
+            
+        </div>
+        <div class="contactForm"style="margin-left: 16%;margin-bottom: 5px;">
+            <h3>Send message</h3>
+            <!--InputBox1-->
+            <div class="inputBox">
+                <input type="text" placeholder="Name">
+            </div>
+            <!--InputBox2-->
+            <div class="inputBox">
+                <input type="text" placeholder="Email">
+            </div>
+            <!--InputBox3-->
+            <div class="inputBox">
+                <textarea placeholder="Message"></textarea>
+            </div>
+            <!--Submit-->
+            <div class="inputBox">
+                <input type="submit" value="Send">
+            </div>
+        </div>
+    </section>
+
+
+<div style="background-color:black;height:fit-content">
+    <br>
+    <br>
+    <br>
+    <div class="row" >
+        <div class="column2" style="text-align: center;padding-left: 8%;padding-right: 4%;">
+           
+         <p style="text-align: center;color: #fff;"><br>
+            
+        
+            <i style="font-size:24px;color:sienna;" class="fa">&#xf041;</i>
+            <br><b>ADDRESS</b><br><br>
+            103 North Loundoun Street.,<br>
+             Winchester, VA</p>
+  </div>
+  <div class="column2" style="text-align: center;padding-left: 7%;padding-right: 4%;">
+           
+    <p style="text-align: center;color: #fff;"><br>
+       
+   
+       <i style="font-size:24px;color:sienna;" class="fa">&#xf017;</i>
+       <br><b> WE ARE OPEN</b><br><br>
+      <b> Mon–Fri:</b> 9am-10pm<br>
+       <b>Sat:</b> 10pm-4am<br>
+       <b>Sun:</b> 10am-7pm</p>
+</div>
+<div class="column2" style="text-align: center;padding-left: 6%;padding-right: 3%;">
+           
+    <p style="text-align: center;color: #fff;"><br>
+       
+       <i style="font-size:24px;color:sienna;" class="fa">&#xf095;</i>
+       <br><b> RESERVATION</b><br><br>
+       +63 9202740366<br>
+       help@theCUISINE.com</p>
+</div>
+<div class="column2" style="text-align: center;padding-left: 3%;padding-right: 1%;">
+    <p style="text-align: center;color: #fff;">
+        <br>
+        <i style="font-size:24px;color:sienna;" class="fa">&#xf08a;</i>
+        <br><b> STAY CONNECTED</b><br></p>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-rss"></a>
+</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+</div>
+
+<br>
+<br>
+<br>
+<div class="flex-container" style="font-size: 77%;">
+   
+    <div class="flex-item-left" style="max-width:100%;">
+        <p style="color: silver;">Privacy Policy Terms & Conditions</p>
+    </div>
+    <div class="flex-item-right" style="max-width:100%;">
+        <p style="color: silver;">© 2021.</p>
+    </div>
+   </div>
+   <br>
+   <br>
+   <br>
+   
+
+</body>
+</html>

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<title>Menu</title>
+	<style type="text/css">
+		*{
+			margin: 0;padding: 0;font-family: 'Fuzzy Bubbles', cursive;
+		}
+		body{
+			background-color: #777;
+		}
+		.head{
+			height: 60vh;
+			width: 100%;
+			background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/wall3.jpg);
+			background-position: center;
+			background-size: cover;
+			position: relative;
+		}
+		nav{
+			display: flex;padding: 2% 6%;justify-content: space-between;align-items: center;
+		}
+		.links{
+			flex: 1;text-align: right;
+		}
+		.links ul li{
+			list-style: none;display: inline-block;padding: 8px 12px;position: relative;
+		}
+		.links ul li a{
+			color: #fff; text-decoration: none;font-size: 13px;
+		}
+		.links ul li: :after{
+			content: '';width: 0px;height: 6%;background: #f44336; display: block;margin: auto;transition: 0.6s;
+		}
+		.links ul li: hover: :after{
+			width: 100px;
+			color: darkred;
+		}
+		.links li a{color: #fff;}
+		.text-box{
+			color: #fff;
+			
+			position: absolute;
+			top: 60%;
+			left: 50%;
+            transform: translate(-50%,-50%);
+            text-align: center;
+		}
+		.text-box h1{font-size: 62px;}
+		.text-box p{font-size: 14px;margin: 10px 0 40px;color: #fff;}
+		.section {
+  position: relative;
+  width: 90%;
+  height: 48vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.section h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Cookie";
+  padding: 20px;
+  margin: 15px;
+  z-index: 1;
+  opacity: 0.7;
+}
+
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 15;
+  right: 15;
+  width: 90%;
+  border-radius: 20px;
+  
+}
+
+.color-overlay {
+  position: absolute;
+  top: 0;
+  left: 15;
+  background-color: lightblue;
+  width: 100%;
+  height: 48vh;
+  opacity: 0.5;right: 15;
+
+
+}
+     body{
+			display: flex;
+			justify-content: flex-end;
+			align-items: center;
+			min-height: 100vh;
+			flex-direction: column;
+			background: #ede7f6;
+			background-color:  #282729  ;
+		}
+		footer{
+			position: relative;
+			width: 100%;
+			height: auto;
+			padding: 40px 80px;
+			background: #111;
+			display: flex;
+			justify-content: space-between;
+			flex-wrap: wrap;
+		}
+		footer .container{
+		    display: flex;
+		    justify-content: space-between;
+			flex-wrap: wrap;
+			flex-direction: row;
+			
+
+
+
+
+		}
+		footer .container .sec{margin-right: 30px;}
+		footer .container .sec.aboutus{width: 40%;}
+		footer .container  h2{ position: relative;color: #fff;font-weight: 500; margin-bottom: 15px; }
+		footer  h2:before{content: ''; position: absolute; bottom: -5px; left: 0; width:50px ; height:2px ; background: #f00;}
+		footer  p{color: #999;}
+		.sci{margin-top: 20px; display: flex;}
+		.sci li{list-style-type: none;}
+		.sci li a{display: inline-block; width: 40px; height: 40px; background: #222; display: flex; justify-content: center; align-items: center ;margin-right: 10px; text-decoration: none; border-radius: 4px;}
+		.sci li a:hover{color: #f00;}
+		.sci li a{color: #fff; font-size: 20px;}
+		.quicklinks{
+			position: relative;width: 25%;
+		}
+		.quicklinks ul li{
+			list-style-type: none;
+		}
+		.quicklinks ul li a{
+			color: #999;
+			text-decoration: none;
+			margin-bottom: 10px;
+			display: inline-block;
+		}.quicklinks ul li a:hover{
+			color: white;
+		}
+		.contacts{
+			width:calc(35% - 60px);
+			margin-right: 0 !important;
+		}
+		.contacts .info{position: relative;}
+		.contacts .info li{
+			display: flex;margin-bottom: 16px;
+		}
+		.contacts .info li span{color: #fff;
+			font-size: 20px;
+			margin-right: 10px;
+
+		}
+		.contacts .info li span{color: #999;}
+		.contacts .info li a{color: #999; text-decoration: none;}
+		.contacts .info li a:hover{color: #fff;}
+		.copyright{width: 100%; background: #181818;padding: 8px 100px; text-align:center ; color: #999;}
+		
+	</style>
+</head>
+<body>
+	<section class="head">
+		
+		<div class="text-box">
+		<h1>theCUISINE Menu.</h1>
+		<p>We serve our customer in the ABOVE categories. </p>
+
+		
+	</div>
+	<nav>
+			<a href="Cuisine Phase.html" style="width=150px"><img src="images/logo5.jpg"></a>
+			
+		</nav>
+	<div class="links">
+				<ul>
+					<li><a href="break.html" >BREAKFAST.</a></li>
+	                <li><a href="Appitizers.html" >APPITIZERS.</a></li> 
+	                <li><a href="Lunch.html" >HIGH TEA.</a></li>
+	                <li><a href="Dinner.html" >MAIN COURSE.</a></li>
+	                <li><a href="Deserts.html" >DESERTS.</a></li>
+					
+				</ul>
+				
+			</div>
+	</section><br><br><br><br><br><br>
+	<div class="section">
+
+        <h1>Satisfication.</h1>
+
+        <div class="video-container">
+            <div class="color-overlay"></div>
+            <video  width="100%"  autoplay loop muted >
+                <source src="images/video2.mp4" type="video/mp4">
+            </video>
+        </div>
+
+    </div><br><br><br><br><br><br>
+
+
+
+
+    <footer>
+		<div class="container">
+			<div class="sec aboutus">
+				<h2>About us</h2>
+				<p>myCuisine is the only Pakistani restaurant in the GTA that offers the trifecta: flavour, experience, and quality. We serve upscale Karahi & BBQ in a casual and vibrant atmosphere.</p>
+				<ul class="sci"> 
+				<li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+					<li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+					<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+					<li><a href="#"><i class="fab fa-snapchat"></i></a></li>
+			</ul>
+			</div>
+			<div class="sec quicklinks">
+				<h2>Quick Links</h2>
+				<ul>
+					
+					<li><a href="menu.html">MENU</a></li>
+					<li><a href="">COMBA PACKAGES</a></li>
+					<li><a href="">ABOUT US</a></li>
+					<li><a href="">CONTACT</a></li>
+					<li><a href="">OUR CHEFS</a></li>
+				</ul>
+			</div>
+			<div class="sec contacts">
+				<h2>Contacts Info</h2>
+				<ul class="info">
+					<li>
+						<span><i class="fa fa-map-marker" ></i></span>
+						<span>Plot #36, Block 7/8, Modern Cooperative Housing Society, Main Tipu Sultan Rd, Karachi, 75350</span>
+					</li>
+					<li>
+						<span><i class="fa fa-phone" ></i></span>
+						<p><a href="tel:123456789">+289-521-7722</a></p>
+					</li>
+					<li>
+						<span><i class="fa fa-envelope" ></i></span>
+						<p><a href="mailto:info@mycuisine.ca">info@mycuisine.ca</a></p>
+						
+					</li>
+				</ul>
+			</div>
+			
+		</div>
+		<div class="copyright">
+			<p>Copyright © IICT Project. All right Reserved.</p>
+		</div>
+	</footer>
+
+
+
+
+
+
+</body>
+</html>
